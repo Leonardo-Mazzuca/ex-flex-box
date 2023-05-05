@@ -1,0 +1,167 @@
+
+:root{
+    --cor-principal: #e0e1dd;
+    --cor1 :#0d1b2a ;
+    --cor2 : #1b263b;
+    --cor3 : #415a77;
+    --cor4 : #778da9;
+}
+
+/* Cores usadas: #e0e1dd- #0d1b2a- #1b263b- #415a77- #778da9. */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    color: #fff;
+    font-size: 20vh;
+}
+
+
+.box-cinza{
+    width: 90%;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--cor-principal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.box{
+    width: 20%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #000; */
+}
+
+
+
+.bg1{background-color: var(--cor1);}
+.bg2{background-color: var(--cor2);}
+.bg3{background-color: var(--cor3);}
+.bg4{background-color: var(--cor4);}
+
+/* segunda linha */
+
+.box-strech{
+    width: 42%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*terceira linha*/
+
+.box-super-strech{
+    width: 64%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* quarta linha */
+
+.flex-column{flex-direction: column;}
+
+.box-high{
+    width: 95%;
+    height: 20vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    padding-top: 10px;
+   
+    
+   
+    
+    
+}
+
+.box-high .box{
+    width: 10%;
+    height: 20vh;
+}
+
+.box-low{
+    width: 95%;
+    height: 20vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 15px;
+    padding-bottom: 10px;
+
+    
+   
+    
+}
+
+.box-low .box{
+    width: 10%;
+    height: 20vh;
+}
+
+/* quinta linha */
+
+.space-bettween{
+    justify-content: space-between;
+}
+
+
+
+.box-left{
+    width: 33%;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 10px;
+
+
+    
+}
+
+.box-right{
+    width: 33%;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+
+.box-left .box{
+    width: 30%;
+    height: 17vh;
+}
+.box-right .box{
+    width: 30%;
+    height: 17vh;
+}
+
+
+
+
+
+
+
+
+
+
